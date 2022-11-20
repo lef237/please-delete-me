@@ -4,7 +4,7 @@ const dolphinBeforeStdin = `
 ┌──────────────┐
 │              │
 │    PLEASE    │
-│    DELEATE   │
+│    DELETE    │
 │    ME...     │
 │              │
 └───────ｖ─────┘
