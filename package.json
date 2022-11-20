@@ -1,0 +1,33 @@
+{
+  "name": "please-delete-me",
+  "version": "1.0.0",
+  "description": "You can delete that dolphin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lef237/please-delete-me.git"
+  },
+  "keywords": [
+    "npm",
+    "dolphin",
+    "Dolphin",
+    "Microsoft",
+    "Agent",
+    "Kyle",
+    "delete",
+    "remove",
+    "how",
+    "to",
+    "please",
+    "please-delete-me"
+  ],
+  "author": "lef237 <lef237k5@gmail.com> (https://github.com/lef237)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lef237/please-delete-me/issues"
+  },
+  "homepage": "https://github.com/lef237/please-delete-me#readme"
+}
