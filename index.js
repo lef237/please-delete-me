@@ -64,21 +64,21 @@ const main = async () => {
         await transitionAA(i, textTransitionYes);
       }
       await switchingAA(textSwitchingYes);
-      process.exit();
+      break;
     } else if (["n", "N", "no", "No"].includes(answer)) {
       const counter = textTransitionNo.length;
       for (let i = 0; i < counter; i++) {
         await transitionAA(i, textTransitionNo);
       }
       await switchingAA(textSwitchingNo);
-      process.exit();
+      break;
     } else if (["let it go"].includes(answer)) {
       const counter = textTransitionLet.length;
       for (let i = 0; i < counter; i++) {
         await transitionAA(i, textTransitionLet);
       }
       await switchingAA(textSwitchingLet);
-      process.exit();
+      break;
     }
 
     console.log("");
