@@ -1,6 +1,6 @@
 {
   "name": "please-delete-me",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "You can delete that dolphin.",
   "main": "index.js",
   "bin": {
