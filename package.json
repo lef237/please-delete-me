@@ -4,7 +4,7 @@
   "description": "You can delete that dolphin.",
   "main": "index.js",
   "bin": {
-    "please-delete-me": "./index.js"
+    "please-delete-me": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
