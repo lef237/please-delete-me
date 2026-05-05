@@ -30,13 +30,13 @@ const textSwitchingLet = [
   asciiArts.thankyouDolphinTwo,
 ];
 
-const transitionAA = (i, textArray) => {
+const transitionAA = (i, textArray, delay = 1500) => {
   return new Promise((resolve) => {
     setTimeout(function () {
       console.clear();
       console.log(textArray[i]);
       resolve();
-    }, 1500);
+    }, delay);
   });
 };
 
@@ -68,7 +68,8 @@ const main = async () => {
     } else if (["n", "N", "no", "No"].includes(answer)) {
       const counter = textTransitionNo.length;
       for (let i = 0; i < counter; i++) {
-        await transitionAA(i, textTransitionNo);
+        const delay = i === 1 || i === 3 ? 3000 : 1500;
+        await transitionAA(i, textTransitionNo, delay);
       }
       await switchingAA(textSwitchingNo);
       break;
